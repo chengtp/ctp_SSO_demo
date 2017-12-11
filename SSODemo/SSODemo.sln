@@ -10,7 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSODemo", "src\SSODemo\SSODemo.xproj", "{C40BD72E-BA79-4E22-B0C6-1A05AB9143A2}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSOService", "src\SSOService\SSOService.xproj", "{5143124F-A886-4C7F-A993-2CA92902B661}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSOProjectOne", "src\SSOProjectOne\SSOProjectOne.xproj", "{F82F3C46-1D72-4282-AAB5-CFB33A383E7E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSOProjectTwo", "src\SSOProjectTwo\SSOProjectTwo.xproj", "{2E72BCD7-C6D7-4F7A-8513-D6311A7E811A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +22,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C40BD72E-BA79-4E22-B0C6-1A05AB9143A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C40BD72E-BA79-4E22-B0C6-1A05AB9143A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C40BD72E-BA79-4E22-B0C6-1A05AB9143A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C40BD72E-BA79-4E22-B0C6-1A05AB9143A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5143124F-A886-4C7F-A993-2CA92902B661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5143124F-A886-4C7F-A993-2CA92902B661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5143124F-A886-4C7F-A993-2CA92902B661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5143124F-A886-4C7F-A993-2CA92902B661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82F3C46-1D72-4282-AAB5-CFB33A383E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82F3C46-1D72-4282-AAB5-CFB33A383E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82F3C46-1D72-4282-AAB5-CFB33A383E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82F3C46-1D72-4282-AAB5-CFB33A383E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E72BCD7-C6D7-4F7A-8513-D6311A7E811A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E72BCD7-C6D7-4F7A-8513-D6311A7E811A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E72BCD7-C6D7-4F7A-8513-D6311A7E811A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E72BCD7-C6D7-4F7A-8513-D6311A7E811A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C40BD72E-BA79-4E22-B0C6-1A05AB9143A2} = {CE17D750-B87D-4093-96AE-2B3903C2CF49}
+		{5143124F-A886-4C7F-A993-2CA92902B661} = {CE17D750-B87D-4093-96AE-2B3903C2CF49}
+		{F82F3C46-1D72-4282-AAB5-CFB33A383E7E} = {CE17D750-B87D-4093-96AE-2B3903C2CF49}
+		{2E72BCD7-C6D7-4F7A-8513-D6311A7E811A} = {CE17D750-B87D-4093-96AE-2B3903C2CF49}
 	EndGlobalSection
 EndGlobal
