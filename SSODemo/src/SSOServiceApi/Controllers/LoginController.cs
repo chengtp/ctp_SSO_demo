@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace SSOService.Controllers
+namespace SSOServiceApi.Controllers
 {
-    public class HomeController : Controller
+    public class LoginController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
         {
-            ViewBag.Title = "我的测试";
-                return View();
-            //   return Content("我的测试");
+
+            //1.单独的登录页面
+            //使用webservice和web api都可以
+            return View();
         }
     }
 }
